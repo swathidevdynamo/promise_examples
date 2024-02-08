@@ -1,6 +1,6 @@
 function getRandomInt(max) {
     console.log("getRandomInt ----------", max)
-    return Math.floor(Math.random * max)
+    return Math.floor(Math.random() * max)
 }
 
 function examplewithforloop() {
@@ -9,7 +9,7 @@ function examplewithforloop() {
         let num = getRandomInt(10);
         console.log("num value is ----------", num)
         if (num % 2 == 0) {
-            // resolve promise
+            // resolve promise 
             resolve(num);
             console.log("resolving promise")
         } else {
